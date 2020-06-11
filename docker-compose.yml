@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  kali-service:
+    build:
+      context: .
+      args:
+        SSH_USER: ${SSH_USER}
+        SSH_PASSWORD: ${SSH_PASSWORD}
+    volumes:
+      - ./user:/home/${SSH_USER}
+      - ./database:/var/lib/database
+    ports:
+      - "2222:22"
