@@ -15,8 +15,8 @@ The current project will create a working image of Kali Linux with the followin 
 
 ## Required Apps
 
-1- Docker
-2- GIT
+1. Docker
+2. GIT
 
 ## Files Description
 
