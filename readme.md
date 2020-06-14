@@ -33,22 +33,22 @@ The current project will create a working image of Kali Linux with the followin 
 
 ## Steps
 
-1- Clone the repository and go to the project folder
+1. Clone the repository and go to the project folder
 
 ```
 git clone https://github.com/mdorozcog/kali_docker.git kali_docker
 cd kali_docker
 ```
 
-2- Customise settings. Inside the "dockerfile" add or remove packages according to your needs.
+2. Customise settings. Inside the "dockerfile" add or remove packages according to your needs.
 
-3- Create docker image and run container in the background.
+3. Create docker image and run container in the background.
 
 ```
 docker-compose up -d
 ```
 
-4- Log into your new container and run the persist_db.sh just once to copy your PostgreSQL data into your host directory
+4. Log into your new container and run the persist_db.sh just once to copy your PostgreSQL data into your host directory
 
 ```
 ssh mdorozcog@127.0.0.1 -p 2222
