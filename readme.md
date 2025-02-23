@@ -2,7 +2,7 @@
 
 ## Objectives
 
-The current project will create a working image of Kali Linux with the followin packets:
+The current project will create a working image of Kali Linux with the followin packages:
 
 - metasploit-framework
 - nmap
